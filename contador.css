@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(2, 25, 52);
+    background: linear-gradient(
+        90deg,
+        rgb(95, 223, 208) 0%,
+        rgb(55, 147, 150 ) 20%,
+        rgb(2, 25, 52) 84%
+        
+    );
+  }
+  img {
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #fff;
+  }
+  
+  span {
+    font-family: Verdana;
+    font-size: 5em;
+  }
+  
+  button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #6ecff6;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: Verdana;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  p {
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: -10px;
+}
